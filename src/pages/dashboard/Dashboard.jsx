@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import Loading from '../../components/Loading';
 
-import getBaseUrl from '../../utils/baseUrl';
+import getBaseUrl from '../../utils/baseURL';
 import { MdIncompleteCircle } from 'react-icons/md'
 import RevenueChart from './RevenueChart';
 
